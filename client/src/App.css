@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Poppins", sans-serif;
+  --breakpoint-3xl: 1920px;
+  --color-primary: #875cf5;
+  --color-primary-dark: #7345d8;
+  --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-display);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #fcfbfc;
+    overflow-x: hidden;
+    color: #1f2937;
+  }
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.input-box {
+  @apply w-full text-sm text-gray-800 bg-slate-100 rounded-lg px-4 py-3 mt-3 mb-4 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-300 transition duration-200;
+}
+
+.btn-primary {
+  @apply w-full text-sm font-semibold text-white p-[10px] rounded-lg shadow-md transition duration-300 ease-in-out;
+  background-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-1px);
+}
+
+.card {
+  @apply bg-white p-6 rounded-2xl border border-gray-200/60 shadow-md transition-shadow hover:shadow-lg;
+  box-shadow: var(--card-shadow);
+}
+
+.card-btn {
+  @apply flex items-center gap-3 text-sm font-medium text-gray-600 hover:text-purple-600 bg-gray-50 hover:bg-purple-50 px-4 py-2 rounded-lg border border-gray-200/60 cursor-pointer transition-colors duration-200;
+}
+
+.add-btn {
+  @apply flex items-center gap-2 text-sm font-semibold text-purple-600 bg-purple-50 border border-purple-200 rounded-lg px-4 py-2 cursor-pointer hover:bg-purple-100 transition;
+}
+
+.add-btn-fill {
+  @apply text-white;
+  background-color: var(--color-primary);
+}
+
+.add-btn-fill:hover {
+  background-color: var(--color-primary-dark);
+}
