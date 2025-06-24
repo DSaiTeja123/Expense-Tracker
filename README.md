@@ -44,12 +44,12 @@ A full-featured personal finance management web app built with the **MERN Stack*
 - npm install
 
 # Install server dependencies
-- cd ../server
+- cd server
 - npm install
 
 3. **Start the development server**
 # Terminal 1 - start backend
--cd server
+- cd server
 - npm run dev
 
 # Terminal 2 - start frontend
