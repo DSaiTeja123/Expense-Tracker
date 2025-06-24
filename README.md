@@ -27,33 +27,33 @@ A full-featured personal finance management web app built with the **MERN Stack*
 
 ## 🚀 Demo
 
-**Live:** [https://expense-tracker-sigma-self-63.vercel.app/](https://expense-tracker-sigma-self-63.vercel.app/)
+**Live:** [https://expense-tracker-sigma-self-63.vercel.app](https://expense-tracker-sigma-self-63.vercel.app)
 
 ---
 
 ## 📦 Installation
 
 1. **Clone the repository**
-git clone https://expense-tracker-sigma-self-63.vercel.app/
-cd expense-tracker
+- git clone https://expense-tracker-sigma-self-63.vercel.app
+- cd expense-tracker
 
 2. **Install dependencies**
 # Install client dependencies
-cd client
-npm install
+- cd client
+- npm install
 
 # Install server dependencies
-cd ../server
-npm install
+- cd ../server
+- npm install
 
 3. **Start the development server**
 # Terminal 1 - start backend
-cd server
-npm run dev
+-cd server
+- npm run dev
 
 # Terminal 2 - start frontend
-cd client
-npm run dev
+- cd client
+- npm run dev
 
 4. **Open in your browser:**  
 [http://localhost:5173](http://localhost:5173)
