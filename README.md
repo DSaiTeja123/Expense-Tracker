@@ -60,14 +60,24 @@ npm run dev
 
 ---
 
-## 🛠️ Usage
+## ✨ Features
 
-- **Register/Login** to access the expense tracker.
-- **Add new transactions** for both income and expenses.
-- **Dashboard** displays recent transactions, last 30 days summary, and a full finance overview.
-- **Visual Insights** via dynamic charts for income and expense tracking.
-- **Download** your entire transaction history as an Excel sheet.
-- **Track financial health** over time with real-time updates.
+- **User Authentication** (Register, Login)
+- **Add Income and Expense Transactions**
+- **View All Transactions** (with filters and pagination)
+- **Dashboard Overview**
+  - Total Balance
+  - Total Income
+  - Total Expense
+  - Recent Transactions
+  - Last 30 Days Expenses
+  - Recent Income with Charts
+- **Interactive Charts** using `recharts`
+- **Download Excel Reports** of all transactions using `xlsx`
+- **Dark/Light Theme Support** with Tailwind CSS
+- **Toast Notifications** for actions using `react-hot-toast`
+- **Responsive UI** for mobile, tablet, and desktop
+- **Elegant Date Formatting** using `moment.js`
 
 ---
 
