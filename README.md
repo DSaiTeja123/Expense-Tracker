@@ -9,19 +9,20 @@ A full-featured personal finance management web app built with the **MERN Stack*
 
 - **User Authentication** (Register, Login)
 - **Add Income and Expense Transactions**
-- **View All Transactions** (with filters)
+- **View All Transactions** (with filters and pagination)
 - **Dashboard Overview**
+  - Total Balance
+  - Total Income
+  - Total Expense
   - Recent Transactions
-  - Finance Overview
-  - Expense Transactions
   - Last 30 Days Expenses
-  - Recent Income
-- **Charts & Visuals** using `recharts`
-- **Export to Excel** using `xlsx`
-- **Responsive Design** with Tailwind CSS
-- **Dark/Light Theme Support** (system-aware)
-- **Toast Notifications** using `react-hot-toast`
-- **Moment.js** used for elegant date formatting
+  - Recent Income with Charts
+- **Interactive Charts** using `recharts`
+- **Download Excel Reports** of all transactions using `xlsx`
+- **Dark/Light Theme Support** with Tailwind CSS
+- **Toast Notifications** for actions using `react-hot-toast`
+- **Responsive UI** for mobile, tablet, and desktop
+- **Elegant Date Formatting** using `moment.js`
 
 ---
 
@@ -60,24 +61,15 @@ A full-featured personal finance management web app built with the **MERN Stack*
 
 ---
 
-## ✨ Features
+## 🛠️ Usage
 
-- **User Authentication** (Register, Login)
-- **Add Income and Expense Transactions**
-- **View All Transactions** (with filters and pagination)
-- **Dashboard Overview**
-  - Total Balance
-  - Total Income
-  - Total Expense
-  - Recent Transactions
-  - Last 30 Days Expenses
-  - Recent Income with Charts
-- **Interactive Charts** using `recharts`
-- **Download Excel Reports** of all transactions using `xlsx`
-- **Dark/Light Theme Support** with Tailwind CSS
-- **Toast Notifications** for actions using `react-hot-toast`
-- **Responsive UI** for mobile, tablet, and desktop
-- **Elegant Date Formatting** using `moment.js`
+- **Register/Login** to access the expense tracker.
+- **Add new transactions** for both income and expenses.
+- **Dashboard** displays recent transactions, last 30 days summary, and a full finance overview.
+- **Visual Insights** via dynamic charts for income and expense tracking.
+- **Filter and view** all transactions by date and type.
+- **Download** your entire transaction history as an Excel sheet.
+- **Track financial health** over time with real-time updates.
 
 ---
 
